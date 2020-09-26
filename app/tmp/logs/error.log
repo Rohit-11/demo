@@ -1,0 +1,580 @@
+2020-09-24 19:37:45 Error: [Error] Call to undefined method Router::scope()
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Router.php(1284): include()
+#1 /var/www/html/cakephp/lib/Cake/Routing/Router.php(596): Router::_loadRoutes()
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(219): Router::parse('')
+#3 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): Dispatcher->parseParams(Object(CakeEvent))
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(147): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/cakephp/index.php(41): require('/var/www/html/c...')
+#7 {main}
+2020-09-24 20:04:44 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/html/cakephp/index.php(41): require('/var/www/html/c...')
+#2 {main}
+2020-09-24 20:08:22 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/html/cakephp/index.php(41): require('/var/www/html/c...')
+#4 {main}
+2020-09-24 20:09:18 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/html/cakephp/index.php(41): require('/var/www/html/c...')
+#4 {main}
+2020-09-24 20:09:20 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/html/cakephp/index.php(41): require('/var/www/html/c...')
+#4 {main}
+2020-09-24 20:11:01 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/html/cakephp/index.php(41): require('/var/www/html/c...')
+#4 {main}
+2020-09-24 20:11:02 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/html/cakephp/index.php(41): require('/var/www/html/c...')
+#4 {main}
+2020-09-24 20:11:09 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/html/cakephp/index.php(41): require('/var/www/html/c...')
+#4 {main}
+2020-09-24 20:11:57 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('posts')
+#1 /var/www/html/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /var/www/html/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#3 /var/www/html/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#4 [internal function]: PostsController->index()
+#5 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/html/cakephp/index.php(41): require('/var/www/html/c...')
+#10 {main}
+2020-09-25 09:41:09 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/post
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-09-25 10:30:20 Error: [Error] Call to a member function link() on null
+Request URL: /cakephp/Posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2020-09-25 10:31:11 Error: [Error] Call to a member function link() on null
+Request URL: /cakephp/Posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2020-09-25 10:31:12 Error: [Error] Call to a member function link() on null
+Request URL: /cakephp/Posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2020-09-25 10:31:13 Error: [Error] Call to a member function link() on null
+Request URL: /cakephp/Posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2020-09-25 10:32:03 Error: [Error] Call to a member function link() on null
+Request URL: /cakephp/Posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2020-09-25 10:32:34 Error: [Error] Call to a member function link() on null
+Request URL: /cakephp/Posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2020-09-25 10:33:27 Error: [Error] Call to a member function link() on null
+Request URL: /cakephp/Posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2020-09-25 10:36:49 Error: [Error] Call to a member function link() on null
+Request URL: /cakephp/Posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2020-09-25 11:00:52 Error: [MissingControllerException] Controller class CcController could not be found.
+Exception Attributes: array (
+  'class' => 'CcController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/cc
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-09-25 11:02:09 Error: [Error] Call to a member function setFlash() on null
+Request URL: /cakephp/Posts/add
+Stack Trace:
+#0 [internal function]: PostsController->add()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-09-25 11:07:03 Error: [Error] Call to a member function setFlash() on null
+Request URL: /cakephp/Posts/add
+Stack Trace:
+#0 [internal function]: PostsController->add()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-09-25 11:13:10 Error: [MissingComponentException] Component class TitleComponent could not be found.
+Exception Attributes: array (
+  'class' => 'TitleComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Posts/add
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Title', Array)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(649): ComponentCollection->init(Object(PostsController))
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-09-25 11:13:19 Error: [MissingComponentException] Component class TitleComponent could not be found.
+Exception Attributes: array (
+  'class' => 'TitleComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Posts/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Title', Array)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(649): ComponentCollection->init(Object(PostsController))
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-09-25 11:14:52 Error: [MissingComponentException] Component class CommonComponent could not be found.
+Exception Attributes: array (
+  'class' => 'CommonComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Posts/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Common', Array)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(649): ComponentCollection->init(Object(PostsController))
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-09-25 11:15:08 Error: [MissingComponentException] Component class NotificationComponent could not be found.
+Exception Attributes: array (
+  'class' => 'NotificationComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Posts/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Notification', Array)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(649): ComponentCollection->init(Object(PostsController))
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-09-25 11:16:06 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-09-25 11:16:34 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-09-25 11:16:35 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-09-25 11:16:36 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-09-25 11:16:46 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-09-25 11:16:53 Error: [MissingHelperException] Helper class BreadCrumbHelper could not be found.
+Exception Attributes: array (
+  'class' => 'BreadCrumbHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/Posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(907): HelperCollection->load('BreadCrumb', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1268): View->__construct(Object(PostsController))
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): Controller->_getViewObject()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2020-09-25 11:18:27 Error: [MissingHelperException] Helper class CommonHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CommonHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/Posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(907): HelperCollection->load('Common', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1268): View->__construct(Object(PostsController))
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): Controller->_getViewObject()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2020-09-25 11:18:28 Error: [MissingHelperException] Helper class CommonHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CommonHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/Posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(907): HelperCollection->load('Common', Array)
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(1268): View->__construct(Object(PostsController))
+#3 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(954): Controller->_getViewObject()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2020-09-25 18:00:43 Error: [MissingHelperException] Helper class PermissionsHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PermissionsHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Permissions')
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(858): HelperCollection->__isset('Permissions')
+#2 /var/www/html/cakephp/app/View/Posts/index.ctp(61): View->__get('Permissions')
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2020-09-25 18:32:48 Error: [Error] Using $this when not in object context
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/app/View/Posts/index.ctp(3): AuthComponent::loggedIn()
+#1 /var/www/html/cakephp/lib/Cake/View/View.php(971): include('/var/www/html/c...')
+#2 /var/www/html/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/c...', Array)
+#3 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#4 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#5 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#6 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2020-09-25 19:04:33 Error: [CakeException] Method sesion does not exist
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/app/Controller/AppController.php(62): CakeRequest->__call('sesion', Array)
+#1 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeRender(Object(CakeEvent))
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(941): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-09-25 19:12:21 Error: [CakeException] Method sesion does not exist
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/app/Controller/AppController.php(62): CakeRequest->__call('sesion', Array)
+#1 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeRender(Object(CakeEvent))
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(941): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-09-25 19:12:22 Error: [CakeException] Method sesion does not exist
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/app/Controller/AppController.php(62): CakeRequest->__call('sesion', Array)
+#1 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeRender(Object(CakeEvent))
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(941): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-09-25 19:12:22 Error: [CakeException] Method sesion does not exist
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/app/Controller/AppController.php(62): CakeRequest->__call('sesion', Array)
+#1 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeRender(Object(CakeEvent))
+#2 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(941): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-09-25 19:14:02 Error: [Error] Call to a member function read() on null
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeRender(Object(CakeEvent))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(941): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-09-25 19:14:02 Error: Fatal Error (1): Uncaught Error: Call to a member function read() on null in /var/www/html/cakephp/app/Controller/AppController.php:62
+Stack trace:
+#0 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeRender(Object(CakeEvent))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(941): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/cakephp/lib/Cake/Error/ExceptionRenderer.php(292): Controller->render('error500')
+#3 /var/www/html/cakephp/lib/Cake/Error/ExceptionRenderer.php(260): ExceptionRenderer->_outputMessage('error500')
+#4 /var/www/html/cakephp/lib/Cake/Error/ExceptionRenderer.php(190): ExceptionRenderer->error500(Object(Error))
+#5 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(127): ExceptionRenderer->render()
+#6 [internal function]: ErrorHandler::handleException(Object(Error))
+#7 {main}
+  thrown in [/var/www/html/cakephp/app/Controller/AppController.php, line 62]
+2020-09-25 19:14:02 Error: [FatalErrorException] Uncaught Error: Call to a member function read() on null in /var/www/html/cakephp/app/Controller/AppController.php:62
+Stack trace:
+#0 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeRender(Object(CakeEvent))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(941): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/cakephp/lib/Cake/Error/ExceptionRenderer.php(292): Controller->render('error500')
+#3 /var/www/html/cakephp/lib/Cake/Error/ExceptionRenderer.php(260): ExceptionRenderer->_outputMessage('error500')
+#4 /var/www/html/cakephp/lib/Cake/Error/ExceptionRenderer.php(190): ExceptionRenderer->error500(Object(Error))
+#5 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(127): ExceptionRenderer->render()
+#6 [internal function]: ErrorHandler::handleException(Object(Error))
+#7 {main}
+  thrown
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', '/var/www/html/c...', 62)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Error:...', '/var/www/html/c...', 62, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2020-09-25 19:14:03 Error: [Error] Call to a member function read() on null
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeRender(Object(CakeEvent))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(941): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-09-25 19:14:03 Error: Fatal Error (1): Uncaught Error: Call to a member function read() on null in /var/www/html/cakephp/app/Controller/AppController.php:62
+Stack trace:
+#0 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeRender(Object(CakeEvent))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(941): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/cakephp/lib/Cake/Error/ExceptionRenderer.php(292): Controller->render('error500')
+#3 /var/www/html/cakephp/lib/Cake/Error/ExceptionRenderer.php(260): ExceptionRenderer->_outputMessage('error500')
+#4 /var/www/html/cakephp/lib/Cake/Error/ExceptionRenderer.php(190): ExceptionRenderer->error500(Object(Error))
+#5 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(127): ExceptionRenderer->render()
+#6 [internal function]: ErrorHandler::handleException(Object(Error))
+#7 {main}
+  thrown in [/var/www/html/cakephp/app/Controller/AppController.php, line 62]
+2020-09-25 19:14:03 Error: [FatalErrorException] Uncaught Error: Call to a member function read() on null in /var/www/html/cakephp/app/Controller/AppController.php:62
+Stack trace:
+#0 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeRender(Object(CakeEvent))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(941): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/cakephp/lib/Cake/Error/ExceptionRenderer.php(292): Controller->render('error500')
+#3 /var/www/html/cakephp/lib/Cake/Error/ExceptionRenderer.php(260): ExceptionRenderer->_outputMessage('error500')
+#4 /var/www/html/cakephp/lib/Cake/Error/ExceptionRenderer.php(190): ExceptionRenderer->error500(Object(Error))
+#5 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(127): ExceptionRenderer->render()
+#6 [internal function]: ErrorHandler::handleException(Object(Error))
+#7 {main}
+  thrown
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', '/var/www/html/c...', 62)
+#1 /var/www/html/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Error:...', '/var/www/html/c...', 62, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2020-09-26 11:33:44 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/add
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-09-26 11:44:22 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2020-09-26 11:45:07 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2020-09-26 11:55:16 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/Users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(505): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(467): AuthComponent->constructAuthorize()
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#4 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(UsersController))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2020-09-26 12:28:42 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /blog/
+Stack Trace:
+#0 /var/www/html/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/blog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/html/blog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
